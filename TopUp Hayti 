@@ -1,0 +1,469 @@
+
+HTML
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TopUp Hayti</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🌍 TopUp Hayti</h1>
+<p>Recharge & International Calling</p>
+</header>
+
+<div class="box">
+
+<label>🌎 Chwazi peyi</label>
+
+<select>
+<option>Ayiti</option>
+<option>República Dominicana</option>
+<option>Chile</option>
+<option>México</option>
+<option>Colombia</option>
+<option>Argentina</option>
+<option>Perú</option>
+<option>Ecuador</option>
+<option>Venezuela</option>
+<option>Brasil</option>
+<option>Estados Unidos</option>
+<option>Canadá</option>
+<option>España</option>
+<option>Francia</option>
+<option>Italia</option>
+<option>Alemania</option>
+<option>Portugal</option>
+<option>Panamá</option>
+<option>Costa Rica</option>
+<option>Guatemala</option>
+<option>Honduras</option>
+<option>El Salvador</option>
+<option>Nicaragua</option>
+<option>Paraguay</option>
+<option>Uruguay</option>
+<option>Bolivia</option>
+</select>
+
+<label>📱 Operatè</label>
+
+<select>
+<option>Digicel</option>
+<option>Natcom</option>
+<option>Claro</option>
+<option>Altice</option>
+<option>Tigo</option>
+<option>Movistar</option>
+<option>Orange</option>
+<option>Vodafone</option>
+</select>
+
+<label>☎️ Nimewo Telefòn</label>
+
+<input type="tel" placeholder="Antre nimewo">
+
+<label>💵 Chwazi kantite</label>
+
+<select>
+<option>$5</option>
+<option>$10</option>
+<option>$20</option>
+<option>$30</option>
+<option>$50</option>
+<option>$100</option>
+</select>
+
+<button>Achte Kounye a</button>
+
+</div>
+
+<footer>
+© 2026 TopUp Hayti
+</footer>
+
+</body>
+</html>
+
+CSS
+body{
+margin:0;
+font-family:Arial;
+background:#eef3f8;
+}
+
+header{
+background:#0057b8;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.box{
+width:90%;
+max-width:450px;
+margin:30px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px #ccc;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+select,input{
+width:100%;
+padding:12px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:20px;
+background:#28a745;
+color:white;
+border:none;
+border-radius:5px;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#218838;
+}
+
+footer{
+margin-top:30px;
+text-align:center;
+padding:20px;
+background:#0057b8;
+color:white;
+} HTML
+
+<!DOCTYPE html>  <html lang="ht">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>TopUp Hayti</title>  
+<link rel="stylesheet" href="style.css">  
+</head>  <body>  <header>  
+<h1>🌍 TopUp Hayti</h1>  
+<p>Recharge & International Calling</p>  
+</header>  <div class="box">  <label>🌎 Chwazi peyi</label>
+
+<select>  
+<option>Ayiti</option>  
+<option>República Dominicana</option>  
+<option>Chile</option>  
+<option>México</option>  
+<option>Colombia</option>  
+<option>Argentina</option>  
+<option>Perú</option>  
+<option>Ecuador</option>  
+<option>Venezuela</option>  
+<option>Brasil</option>  
+<option>Estados Unidos</option>  
+<option>Canadá</option>  
+<option>España</option>  
+<option>Francia</option>  
+<option>Italia</option>  
+<option>Alemania</option>  
+<option>Portugal</option>  
+<option>Panamá</option>  
+<option>Costa Rica</option>  
+<option>Guatemala</option>  
+<option>Honduras</option>  
+<option>El Salvador</option>  
+<option>Nicaragua</option>  
+<option>Paraguay</option>  
+<option>Uruguay</option>  
+<option>Bolivia</option>  
+</select>  <label>📱 Operatè</label>
+
+<select>  
+<option>Digicel</option>  
+<option>Natcom</option>  
+<option>Claro</option>  
+<option>Altice</option>  
+<option>Tigo</option>  
+<option>Movistar</option>  
+<option>Orange</option>  
+<option>Vodafone</option>  
+</select>  <label>☎️ Nimewo Telefòn</label>
+
+<input type="tel" placeholder="Antre nimewo">  <label>💵 Chwazi kantite</label>
+
+<select>  
+<option>$5</option>  
+<option>$10</option>  
+<option>$20</option>  
+<option>$30</option>  
+<option>$50</option>  
+<option>$100</option>  
+</select>  <button>Achte Kounye a</button>
+
+</div>  <footer>  
+© 2026 TopUp Hayti  
+</footer>  </body>  
+</html>  CSS
+body{
+margin:0;
+font-family:Arial;
+background:#eef3f8;
+}
+
+header{
+background:#0057b8;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.box{
+width:90%;
+max-width:450px;
+margin:30px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px #ccc;
+}
+
+label{
+display:block;
+margin-top:15px;
+font-weight:bold;
+}
+
+select,input{
+width:100%;
+padding:12px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:20px;
+background:#28a745;
+color:white;
+border:none;
+border-radius:5px;
+font-size:18px;
+cursor:pointer;
+}
+
+button:hover{
+background:#218838;
+}
+
+footer{
+margin-top:30px;
+text-align:center;
+padding:20px;
+background:#0057b8;
+color:white;
+}
+
+Stripe (kat kredi/debi)
+
+PayPal API
+
+Moncash API (Digicel Ayiti)
+
+Zelle (pa gen API ofisyèl - manual)
+
+CashApp (pa gen API - manual)  - Sove kòmand yo (MySQL / Firebase / Supabase)
+
+Sove enfòmasyon kliyan
+
+Istwa tranzaksyon reyèl (pa localStorage sèlman)
+
+Admin panel pou wè tout kòmand - Node.js oswa PHP pou trete kòmand
+
+API pou voye recharge reyèlman
+(Dtone, Reloadly, Boss Revolution API)
+
+Sistèm konfirmasyon otomatik
+
+Email/SMS rekèt apre peman - HTTPS (SSL Sertifika)
+
+Proteksyon fòd (fraud detection)
+
+Limite eseye peman (rate limiting)
+
+Verifye nimewo telefòn (Twilio API) - SMS konfirmasyon (Twilio)
+
+Email resevwa (SendGrid / Mailgun)
+
+WhatsApp notifikasyon otomatik
+
+Push notification - Paj 404 (si paj pa jwenn)
+
+Paj "Swiv Kòmand ou" (tracking)
+
+Paj Admin (tableau de bord biznis)
+
+Paj FAQ (kesyon yo poze souvan)
+
+Blog / Nouvèl - Meta tags (Google ka jwenn sit la)
+
+Open Graph (bèl preview sou WhatsApp/Facebook)
+
+Google Analytics (wè ki moun vizite)
+
+Facebook Pixel
+
+Sitemap.xml
+
+Robots.txt - Mode nwa (Dark mode)
+
+Animasyon loading pandan peman
+
+Foto / logo operatè yo
+
+Kalkile frè otomatik selon peyi
+
+Konvèti HTG / USD / EUR an reyèl tan - Paj Kondisyon Itilizasyon (Terms)
+
+Paj Konfidansyalite (Privacy Policy)
+
+Paj Ranbousman (Refund Policy)
+
+Mentions légales - Konprese fichye yo (minify CSS/JS)
+
+Cache pou vitès
+
+PWA (mete sit la tankou yon app sou telefòn)
+
+Offline mode PEMAN REYÈL:
+
+Stripe API (kat kredi/debi)
+
+PayPal API
+
+Moncash API (Digicel Ayiti)
+
+
+BACKEND / SERVÈ:
+
+Node.js oswa PHP
+
+Reloadly API (voye recharge nan 26 peyi)
+
+Dtone API (alternativ)
+
+
+BAZ DONE:
+
+MySQL oswa Firebase
+
+Sove tout kòmand
+
+Sove enfòmasyon kliyan
+
+Admin panel SEKIRITE:
+
+HTTPS / SSL
+
+Verifye nimewo (Twilio API)
+
+Proteksyon fòd
+
+
+NOTIFIKASYON:
+
+SMS konfirmasyon (Twilio)
+
+Email resevwa (SendGrid)
+
+WhatsApp otomatik PAJ KI MANKE:
+
+Paj 404
+
+Paj Swiv Kòmand
+
+Paj Admin
+
+Paj FAQ
+
+Paj Ranbousman
+
+
+SEO & MAKETING:
+
+Meta tags
+
+Google Analytics
+
+Facebook Pixel
+
+Sitemap.xml
+
+
+UI:
+
+Dark mode
+
+Logo operatè yo
+
+Konvèti HTG/USD/EUR
+
+PWA (tankou yon app)
+
+
+LEGAL:
+
+Kondisyon Itilizasyon
+
+Konfidansyalite
+
+Ranbousman
+script.js
+payment.html
+success.html
+admin.html
+tracking.html
+faq.html
+privacy.html
+terms.html
+refund.html script.js (konplè)
+Mesaj 2: payment.html (konplè)
+Mesaj 3: success.html
+Mesaj 4: admin.html
+Mesaj 5: tracking.html
+Mesaj 6: faq.html
+Mesaj 7: privacy.html
+Mesaj 8: terms.html
+Mesaj 9: refund.html payment.html
+success.html
+admin.html
+tracking.html
+faq.html
+privacy.html
+terms.html
+refund.html 
+script.js (fè bouton yo mache)
+⬜ payment.html (paj peman)
+⬜ success.html (paj konfimasyon)
+⬜ admin.html (panèl administratè)
+⬜ tracking.html (swiv kòmand)
+⬜ faq.html
+⬜ privacy.html
+⬜ terms.html
+⬜ refund.html
+⬜ Backend (PHP oswa Node.js)
+⬜ Baz done (Firebase oswa MySQL)
+⬜ Koneksyon ak API revandè (Reloadly, DT One, Ding, elatriye
